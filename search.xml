@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hexo使用简易指南</title>
-    <url>/project/2024/10/07/Hexo%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%93%E6%8C%87%E5%8D%97/</url>
+    <url>/2024/10/07/Hexo%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%93%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<h2 id="博客网站快速部署工具Hexo"><a href="#博客网站快速部署工具Hexo" class="headerlink" title="博客网站快速部署工具Hexo"></a>博客网站快速部署工具Hexo</h2><h3 id="安装Hexo的依赖"><a href="#安装Hexo的依赖" class="headerlink" title="安装Hexo的依赖"></a>安装Hexo的依赖</h3><ul>
 <li><p>node.js（使用nvs版本管理工具，类似conda）</p>
 <ul>

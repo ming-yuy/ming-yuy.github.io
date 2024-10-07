@@ -37,8 +37,10 @@
 <li><p><a href="https://github.com/xiangming/landscape-plus/releases/">landscape-plus</a>（好像不好看）</p>
 </li>
 <li><p><a href="https://theme-next.js.org/">NexT</a>☆</p>
-<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next@latest</span><br></pre></td></tr></table></figure></li>
+</li>
 </ul>
+<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next@latest</span><br></pre></td></tr></table></figure>
+
 <h4 id="认识配置文件"><a href="#认识配置文件" class="headerlink" title="认识配置文件"></a>认识配置文件</h4><ul>
 <li>config.yml</li>
 </ul>
@@ -90,9 +92,9 @@
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">source</span><br><span class="line">├──_posts</span><br><span class="line">├──categories</span><br><span class="line">│  └──index.md</span><br><span class="line">└──tags</span><br><span class="line">   └──index.md</span><br></pre></td></tr></table></figure>
 
 <p>其中source&#x2F;categories&#x2F;index.md中添加内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">type: categories</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 <p>source&#x2F;tags&#x2F;index.md中添加内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">type: tags</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
 <h4 id="参考链接-5"><a href="#参考链接-5" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
 <li><p><a href="https://theme-next.js.org/docs/theme-settings/index.html?highlight=menu#Configuring-Menu-Items">NexT官方教程</a></p>

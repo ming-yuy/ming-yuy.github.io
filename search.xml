@@ -3,7 +3,9 @@
   <entry>
     <title>Hexo使用简易指南</title>
     <url>/2024/10/07/Hexo%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%93%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<h2 id="博客网站快速部署工具Hexo"><a href="#博客网站快速部署工具Hexo" class="headerlink" title="博客网站快速部署工具Hexo"></a>博客网站快速部署工具Hexo</h2><h3 id="安装Hexo的依赖"><a href="#安装Hexo的依赖" class="headerlink" title="安装Hexo的依赖"></a>安装Hexo的依赖</h3><ul>
+    <content><![CDATA[<h2 id="博客网站快速部署工具Hexo"><a href="#博客网站快速部署工具Hexo" class="headerlink" title="博客网站快速部署工具Hexo"></a>博客网站快速部署工具Hexo</h2><span id="more"></span>
+
+<h3 id="安装Hexo的依赖"><a href="#安装Hexo的依赖" class="headerlink" title="安装Hexo的依赖"></a>安装Hexo的依赖</h3><ul>
 <li><p>node.js（使用nvs版本管理工具，类似conda）</p>
 <ul>
 <li><p>在GitHub上下载nvs的msi安装程序并运行（我没有修改任何安装配置）</p>
@@ -47,6 +49,14 @@
 <p>待补充……</p>
 <h4 id="设置配置文件"><a href="#设置配置文件" class="headerlink" title="设置配置文件"></a>设置配置文件</h4><p>待补充……</p>
 <h4 id="创建新的博客文章"><a href="#创建新的博客文章" class="headerlink" title="创建新的博客文章"></a>创建新的博客文章</h4><p>待补充……</p>
+<ul>
+<li>防止博客太长，无法同时浏览多篇博客</li>
+</ul>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>
+
+<h5 id="参考链接-2"><a href="#参考链接-2" class="headerlink" title="参考链接"></a>参考链接</h5><ul>
+<li><a href="https://theme-next.js.org/docs/theme-settings/posts#Preamble-Text">NexT官方教程</a></li>
+</ul>
 <h4 id="上传至GitHub"><a href="#上传至GitHub" class="headerlink" title="上传至GitHub"></a>上传至GitHub</h4><ul>
 <li>安装依赖</li>
 </ul>
@@ -57,7 +67,7 @@
 </ul>
 <figure class="highlight bat"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 
-<h5 id="参考链接-2"><a href="#参考链接-2" class="headerlink" title="参考链接"></a>参考链接</h5><ul>
+<h5 id="参考链接-3"><a href="#参考链接-3" class="headerlink" title="参考链接"></a>参考链接</h5><ul>
 <li><a href="https://hexo.io/zh-cn/docs/one-command-deployment">Hexo官方教程</a></li>
 </ul>
 <h2 id="博客需要考虑的功能"><a href="#博客需要考虑的功能" class="headerlink" title="博客需要考虑的功能"></a>博客需要考虑的功能</h2><ul>
@@ -67,7 +77,7 @@
 <li><input disabled="" type="checkbox"> ？</li>
 </ul>
 <h2 id="NexT主题的前端配置"><a href="#NexT主题的前端配置" class="headerlink" title="NexT主题的前端配置"></a>NexT主题的前端配置</h2><h3 id="动画配置"><a href="#动画配置" class="headerlink" title="动画配置"></a>动画配置</h3><p>待补充……</p>
-<h4 id="参考链接-3"><a href="#参考链接-3" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<h4 id="参考链接-4"><a href="#参考链接-4" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
 <li><a href="https://theme-next.js.org/docs/third-party-services/external-libraries.html?highlight=animation#Animation-Effect">NexT官方教程</a></li>
 </ul>
 <h3 id="自定义侧边栏列表"><a href="#自定义侧边栏列表" class="headerlink" title="自定义侧边栏列表"></a>自定义侧边栏列表</h3><ul>
@@ -84,7 +94,7 @@
 <p>source&#x2F;tags&#x2F;index.md中添加内容</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
-<h4 id="参考链接-4"><a href="#参考链接-4" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<h4 id="参考链接-5"><a href="#参考链接-5" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
 <li><p><a href="https://theme-next.js.org/docs/theme-settings/index.html?highlight=menu#Configuring-Menu-Items">NexT官方教程</a></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/29017171">&lt;知乎&gt;hexo 下的分类和表签无法显示，怎么解决？</a></p>
@@ -103,7 +113,7 @@
 <li>修改配置文件_config.next.yml</li>
 </ul>
 <p>待补充……</p>
-<h4 id="参考链接-5"><a href="#参考链接-5" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<h4 id="参考链接-6"><a href="#参考链接-6" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
 <li><a href="https://theme-next.js.org/docs/third-party-services/search-services.html">NexT官方教程</a></li>
 </ul>
 ]]></content>

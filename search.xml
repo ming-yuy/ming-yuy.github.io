@@ -28,6 +28,9 @@
 </ul>
 <h3 id="使用Hexo"><a href="#使用Hexo" class="headerlink" title="使用Hexo"></a>使用Hexo</h3><h4 id="初始化博客前端文件"><a href="#初始化博客前端文件" class="headerlink" title="初始化博客前端文件"></a>初始化博客前端文件</h4><figure class="highlight bat"><table><tr><td class="code"><pre><span class="line">hexo init &lt;<span class="built_in">dir</span>&gt;            <span class="built_in">rem</span> 将&lt;<span class="built_in">dir</span>&gt;改为自己希望设置的目录名称</span><br><span class="line"><span class="built_in">cd</span> &lt;<span class="built_in">dir</span>&gt;</span><br><span class="line">npm install                <span class="built_in">rem</span> 这一步可能有点慢</span><br></pre></td></tr></table></figure>
 
+<h5 id="参考链接-1"><a href="#参考链接-1" class="headerlink" title="参考链接"></a>参考链接</h5><ul>
+<li><a href="https://hexo.io/zh-cn/docs/setup">Hexo官方教程</a></li>
+</ul>
 <h4 id="认识Hexo主题（皮肤、外观）"><a href="#认识Hexo主题（皮肤、外观）" class="headerlink" title="认识Hexo主题（皮肤、外观）"></a>认识Hexo主题（皮肤、外观）</h4><ul>
 <li><p><a href="https://github.com/xiangming/landscape-plus/releases/">landscape-plus</a>（好像不好看）</p>
 </li>
@@ -44,8 +47,18 @@
 <p>待补充……</p>
 <h4 id="设置配置文件"><a href="#设置配置文件" class="headerlink" title="设置配置文件"></a>设置配置文件</h4><p>待补充……</p>
 <h4 id="创建新的博客文章"><a href="#创建新的博客文章" class="headerlink" title="创建新的博客文章"></a>创建新的博客文章</h4><p>待补充……</p>
-<h4 id="参考链接-1"><a href="#参考链接-1" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
-<li><a href="https://hexo.io/zh-cn/docs/setup">Hexo官方教程</a></li>
+<h4 id="上传至GitHub"><a href="#上传至GitHub" class="headerlink" title="上传至GitHub"></a>上传至GitHub</h4><ul>
+<li>安装依赖</li>
+</ul>
+<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>上传</li>
+</ul>
+<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
+<h5 id="参考链接-2"><a href="#参考链接-2" class="headerlink" title="参考链接"></a>参考链接</h5><ul>
+<li><a href="https://hexo.io/zh-cn/docs/one-command-deployment">Hexo官方教程</a></li>
 </ul>
 <h2 id="博客需要考虑的功能"><a href="#博客需要考虑的功能" class="headerlink" title="博客需要考虑的功能"></a>博客需要考虑的功能</h2><ul>
 <li><input disabled="" type="checkbox"> 评论功能（valine，貌似存在安全问题）</li>
@@ -54,7 +67,7 @@
 <li><input disabled="" type="checkbox"> ？</li>
 </ul>
 <h2 id="NexT主题的前端配置"><a href="#NexT主题的前端配置" class="headerlink" title="NexT主题的前端配置"></a>NexT主题的前端配置</h2><h3 id="动画配置"><a href="#动画配置" class="headerlink" title="动画配置"></a>动画配置</h3><p>待补充……</p>
-<h4 id="参考链接-2"><a href="#参考链接-2" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<h4 id="参考链接-3"><a href="#参考链接-3" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
 <li><a href="https://theme-next.js.org/docs/third-party-services/external-libraries.html?highlight=animation#Animation-Effect">NexT官方教程</a></li>
 </ul>
 <h3 id="自定义侧边栏列表"><a href="#自定义侧边栏列表" class="headerlink" title="自定义侧边栏列表"></a>自定义侧边栏列表</h3><ul>
@@ -71,7 +84,7 @@
 <p>source&#x2F;tags&#x2F;index.md中添加内容</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
-<h4 id="参考链接-3"><a href="#参考链接-3" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<h4 id="参考链接-4"><a href="#参考链接-4" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
 <li><p><a href="https://theme-next.js.org/docs/theme-settings/index.html?highlight=menu#Configuring-Menu-Items">NexT官方教程</a></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/29017171">&lt;知乎&gt;hexo 下的分类和表签无法显示，怎么解决？</a></p>
@@ -90,7 +103,7 @@
 <li>修改配置文件_config.next.yml</li>
 </ul>
 <p>待补充……</p>
-<h4 id="参考链接-4"><a href="#参考链接-4" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<h4 id="参考链接-5"><a href="#参考链接-5" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
 <li><a href="https://theme-next.js.org/docs/third-party-services/search-services.html">NexT官方教程</a></li>
 </ul>
 ]]></content>
@@ -101,23 +114,5 @@
         <tag>前端</tag>
         <tag>技术</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/project/2024/10/07/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>

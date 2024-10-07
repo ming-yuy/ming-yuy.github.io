@@ -26,7 +26,7 @@
 <meta property="og:description" content="博客网站快速部署工具Hexo安装Hexo的依赖 node.js（使用nvs版本管理工具，类似conda）  在GitHub上下载nvs的msi安装程序并运行（我没有修改任何安装配置）  打开cmd（修改一下不要用powershell，用command prompt，否则后面命令可能失败）运行命令     12nvs add ltsnvs link lts   npm命令安装Hexo（可能会遇到网络">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-10-07T07:56:46.000Z">
-<meta property="article:modified_time" content="2024-10-07T08:19:09.914Z">
+<meta property="article:modified_time" content="2024-10-07T08:25:20.476Z">
 <meta property="article:author" content="Ming-Yu Yang">
 <meta property="article:tag" content="前端">
 <meta property="article:tag" content="技术">
@@ -140,7 +140,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E5%BF%AB%E9%80%9F%E9%83%A8%E7%BD%B2%E5%B7%A5%E5%85%B7Hexo"><span class="nav-number">1.</span> <span class="nav-text">博客网站快速部署工具Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Hexo%E7%9A%84%E4%BE%9D%E8%B5%96"><span class="nav-number">1.1.</span> <span class="nav-text">安装Hexo的依赖</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5"><span class="nav-number">1.1.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8Hexo"><span class="nav-number">1.2.</span> <span class="nav-text">使用Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2%E5%89%8D%E7%AB%AF%E6%96%87%E4%BB%B6"><span class="nav-number">1.2.1.</span> <span class="nav-text">初始化博客前端文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%A4%E8%AF%86Hexo%E4%B8%BB%E9%A2%98%EF%BC%88%E7%9A%AE%E8%82%A4%E3%80%81%E5%A4%96%E8%A7%82%EF%BC%89"><span class="nav-number">1.2.2.</span> <span class="nav-text">认识Hexo主题（皮肤、外观）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%A4%E8%AF%86%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">1.2.3.</span> <span class="nav-text">认识配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">1.2.4.</span> <span class="nav-text">设置配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E6%96%B0%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0"><span class="nav-number">1.2.5.</span> <span class="nav-text">创建新的博客文章</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5-1"><span class="nav-number">1.2.6.</span> <span class="nav-text">参考链接</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E9%9C%80%E8%A6%81%E8%80%83%E8%99%91%E7%9A%84%E5%8A%9F%E8%83%BD"><span class="nav-number">2.</span> <span class="nav-text">博客需要考虑的功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NexT%E4%B8%BB%E9%A2%98%E7%9A%84%E5%89%8D%E7%AB%AF%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">NexT主题的前端配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%A8%E7%94%BB%E9%85%8D%E7%BD%AE"><span class="nav-number">3.1.</span> <span class="nav-text">动画配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5-2"><span class="nav-number">3.1.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%88%97%E8%A1%A8"><span class="nav-number">3.2.</span> <span class="nav-text">自定义侧边栏列表</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5-3"><span class="nav-number">3.2.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD"><span class="nav-number">3.3.</span> <span class="nav-text">搜索功能</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5-4"><span class="nav-number">3.3.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E5%BF%AB%E9%80%9F%E9%83%A8%E7%BD%B2%E5%B7%A5%E5%85%B7Hexo"><span class="nav-number">1.</span> <span class="nav-text">博客网站快速部署工具Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Hexo%E7%9A%84%E4%BE%9D%E8%B5%96"><span class="nav-number">1.1.</span> <span class="nav-text">安装Hexo的依赖</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5"><span class="nav-number">1.1.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8Hexo"><span class="nav-number">1.2.</span> <span class="nav-text">使用Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2%E5%89%8D%E7%AB%AF%E6%96%87%E4%BB%B6"><span class="nav-number">1.2.1.</span> <span class="nav-text">初始化博客前端文件</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5-1"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%A4%E8%AF%86Hexo%E4%B8%BB%E9%A2%98%EF%BC%88%E7%9A%AE%E8%82%A4%E3%80%81%E5%A4%96%E8%A7%82%EF%BC%89"><span class="nav-number">1.2.2.</span> <span class="nav-text">认识Hexo主题（皮肤、外观）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%A4%E8%AF%86%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">1.2.3.</span> <span class="nav-text">认识配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">1.2.4.</span> <span class="nav-text">设置配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E6%96%B0%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0"><span class="nav-number">1.2.5.</span> <span class="nav-text">创建新的博客文章</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8A%E4%BC%A0%E8%87%B3GitHub"><span class="nav-number">1.2.6.</span> <span class="nav-text">上传至GitHub</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5-2"><span class="nav-number">1.2.6.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E9%9C%80%E8%A6%81%E8%80%83%E8%99%91%E7%9A%84%E5%8A%9F%E8%83%BD"><span class="nav-number">2.</span> <span class="nav-text">博客需要考虑的功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NexT%E4%B8%BB%E9%A2%98%E7%9A%84%E5%89%8D%E7%AB%AF%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">NexT主题的前端配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%A8%E7%94%BB%E9%85%8D%E7%BD%AE"><span class="nav-number">3.1.</span> <span class="nav-text">动画配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5-3"><span class="nav-number">3.1.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%88%97%E8%A1%A8"><span class="nav-number">3.2.</span> <span class="nav-text">自定义侧边栏列表</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5-4"><span class="nav-number">3.2.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD"><span class="nav-number">3.3.</span> <span class="nav-text">搜索功能</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5-5"><span class="nav-number">3.3.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -153,7 +153,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/project/archives/">
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -226,7 +226,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-10-07 15:56:46 / 修改时间：16:19:09" itemprop="dateCreated datePublished" datetime="2024-10-07T15:56:46+08:00">2024-10-07</time>
+      <time title="创建时间：2024-10-07 15:56:46 / 修改时间：16:25:20" itemprop="dateCreated datePublished" datetime="2024-10-07T15:56:46+08:00">2024-10-07</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -272,6 +272,9 @@
 </ul>
 <h3 id="使用Hexo"><a href="#使用Hexo" class="headerlink" title="使用Hexo"></a>使用Hexo</h3><h4 id="初始化博客前端文件"><a href="#初始化博客前端文件" class="headerlink" title="初始化博客前端文件"></a>初始化博客前端文件</h4><figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;<span class="built_in">dir</span>&gt;            <span class="built_in">rem</span> 将&lt;<span class="built_in">dir</span>&gt;改为自己希望设置的目录名称</span><br><span class="line"><span class="built_in">cd</span> &lt;<span class="built_in">dir</span>&gt;</span><br><span class="line">npm install                <span class="built_in">rem</span> 这一步可能有点慢</span><br></pre></td></tr></table></figure>
 
+<h5 id="参考链接-1"><a href="#参考链接-1" class="headerlink" title="参考链接"></a>参考链接</h5><ul>
+<li><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/setup">Hexo官方教程</a></li>
+</ul>
 <h4 id="认识Hexo主题（皮肤、外观）"><a href="#认识Hexo主题（皮肤、外观）" class="headerlink" title="认识Hexo主题（皮肤、外观）"></a>认识Hexo主题（皮肤、外观）</h4><ul>
 <li><p><a target="_blank" rel="noopener" href="https://github.com/xiangming/landscape-plus/releases/">landscape-plus</a>（好像不好看）</p>
 </li>
@@ -288,8 +291,18 @@
 <p>待补充……</p>
 <h4 id="设置配置文件"><a href="#设置配置文件" class="headerlink" title="设置配置文件"></a>设置配置文件</h4><p>待补充……</p>
 <h4 id="创建新的博客文章"><a href="#创建新的博客文章" class="headerlink" title="创建新的博客文章"></a>创建新的博客文章</h4><p>待补充……</p>
-<h4 id="参考链接-1"><a href="#参考链接-1" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
-<li><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/setup">Hexo官方教程</a></li>
+<h4 id="上传至GitHub"><a href="#上传至GitHub" class="headerlink" title="上传至GitHub"></a>上传至GitHub</h4><ul>
+<li>安装依赖</li>
+</ul>
+<figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>上传</li>
+</ul>
+<figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
+<h5 id="参考链接-2"><a href="#参考链接-2" class="headerlink" title="参考链接"></a>参考链接</h5><ul>
+<li><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/one-command-deployment">Hexo官方教程</a></li>
 </ul>
 <h2 id="博客需要考虑的功能"><a href="#博客需要考虑的功能" class="headerlink" title="博客需要考虑的功能"></a>博客需要考虑的功能</h2><ul>
 <li><input disabled="" type="checkbox"> 评论功能（valine，貌似存在安全问题）</li>
@@ -298,7 +311,7 @@
 <li><input disabled="" type="checkbox"> ？</li>
 </ul>
 <h2 id="NexT主题的前端配置"><a href="#NexT主题的前端配置" class="headerlink" title="NexT主题的前端配置"></a>NexT主题的前端配置</h2><h3 id="动画配置"><a href="#动画配置" class="headerlink" title="动画配置"></a>动画配置</h3><p>待补充……</p>
-<h4 id="参考链接-2"><a href="#参考链接-2" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<h4 id="参考链接-3"><a href="#参考链接-3" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
 <li><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/third-party-services/external-libraries.html?highlight=animation#Animation-Effect">NexT官方教程</a></li>
 </ul>
 <h3 id="自定义侧边栏列表"><a href="#自定义侧边栏列表" class="headerlink" title="自定义侧边栏列表"></a>自定义侧边栏列表</h3><ul>
@@ -315,7 +328,7 @@
 <p>source&#x2F;tags&#x2F;index.md中添加内容</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
-<h4 id="参考链接-3"><a href="#参考链接-3" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<h4 id="参考链接-4"><a href="#参考链接-4" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
 <li><p><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/index.html?highlight=menu#Configuring-Menu-Items">NexT官方教程</a></p>
 </li>
 <li><p><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/29017171">&lt;知乎&gt;hexo 下的分类和表签无法显示，怎么解决？</a></p>
@@ -334,7 +347,7 @@
 <li>修改配置文件_config.next.yml</li>
 </ul>
 <p>待补充……</p>
-<h4 id="参考链接-4"><a href="#参考链接-4" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<h4 id="参考链接-5"><a href="#参考链接-5" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
 <li><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/third-party-services/search-services.html">NexT官方教程</a></li>
 </ul>
 
@@ -352,15 +365,6 @@
 
         
 
-          <div class="post-nav">
-            <div class="post-nav-item">
-                <a href="/project/2024/10/07/hello-world/" rel="prev" title="Hello World">
-                  <i class="fa fa-angle-left"></i> Hello World
-                </a>
-            </div>
-            <div class="post-nav-item">
-            </div>
-          </div>
     </footer>
   </article>
 </div>
